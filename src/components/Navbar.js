@@ -1,6 +1,6 @@
 import React from 'react'
 import { GrCart } from "react-icons/gr";
-import {navLinks} from "../utils/constants"
+import { BiSearch  } from "react-icons/bi";
 
 const Navbar = () => {
   return (
@@ -8,16 +8,13 @@ const Navbar = () => {
         <div>
            <a href='#' className='text-black font-bold text-xl'>IpixCom</a>
         </div>
-        <div className='hidden lg:block'>
-            <ul className='flex text-black font-semibold text-md gap-8'>
-                {
-                    navLinks.map((navItems)=><li key={navItems.id}>{navItems.name}</li>)
-                }
-            </ul>
+        <div className='hidden sm:flex justify-center'>
+            <input className='w-[300px] md:rounded-l-full  md:p-2 px-6 border border-gray-200"' type='text' placeholder='Search'></input>
+            <button className='rounded-r-full py-3 bg-gray-100 px-4 border border-gray-200'><BiSearch/></button>
         </div>
         <div className='flex items-center'>
             <GrCart/>
-            <span className='ml-2'>1-Items</span>
+            <span className='ml-2 font-bold'>1-Items</span>
         </div>
     </div>
   )
