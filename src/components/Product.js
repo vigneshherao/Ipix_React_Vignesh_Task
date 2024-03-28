@@ -1,5 +1,4 @@
 import React from "react";
-import { IoBagAddOutline } from "react-icons/io5";
 
 const Product = ({productInfo}) => {
 

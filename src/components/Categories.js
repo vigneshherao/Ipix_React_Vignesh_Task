@@ -15,7 +15,7 @@ const Categories = () => {
     const fetchCategores = async ()=>{
         const data = await fetch("https://api.escuelajs.co/api/v1/categories");
         const categories =await data.json();
-        setCategories(categories);
+        setCategories(categories.slice(0, 5));
     }
 
   return (
@@ -30,4 +30,4 @@ const Categories = () => {
   )
 }
 
-export default Categories
+export default Categories;
