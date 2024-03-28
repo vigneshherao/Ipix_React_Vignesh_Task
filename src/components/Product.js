@@ -1,4 +1,5 @@
 import React from "react";
+import { IoBagAddOutline } from "react-icons/io5";
 
 const Product = ({productInfo}) => {
 
@@ -14,6 +15,7 @@ const Product = ({productInfo}) => {
       <div className="px-6 py-4">
         <div className="font-bold text-sm  mb-2 font-serif">{title}</div>
         <p className="text-gray-700 font-mono text-base font-bold">Rs: {price} Only!</p>
+        <button className="w-full mt-2 text-center bg-black text-white font-semibold p-1 hover:bg-gray-300 hover:text-black">Add to cart</button>
       </div>
     </div>
   );
