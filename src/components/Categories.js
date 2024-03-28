@@ -2,10 +2,12 @@ import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react'
 import Category from './Category';
+import { Link } from 'react-router-dom';
 
 const Categories = () => {
 
     const [categories,setCategories] = useState([]);
+    console.log(categories)
 
     useEffect(()=>{
         fetchCategores();
@@ -23,7 +25,7 @@ const Categories = () => {
         <h2 className='text-center font-extralight text-2xl tracking-widest'>CATEGORIES</h2>
         <div className='flex justify-evenly m-5 flex-wrap'>
         {
-            categories.map((category)=><Category key={category.id} categoryInfo={category}/>)
+            categories.map((category)=><Link to={`/category/${category.id}/products`}><Category key={category.id} categoryInfo={category}/></Link>)
         }
         </div>
     </div>
