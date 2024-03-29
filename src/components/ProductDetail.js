@@ -34,7 +34,7 @@ const ProductDetail = () => {
   }
 
   return (
-    <div className="mt-10 flex px-10 flex-col justify-between lg:flex-row gap-16 lg:items-center">
+    <div className="mt-10 flex px-10 sm:px-28 flex-col justify-between lg:flex-row gap-16 lg:items-center">
       <div className="flex flex-col gap-6 lg:w-2/4">
         <img
           src={activeImg}
