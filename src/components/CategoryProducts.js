@@ -20,9 +20,7 @@ const CategoryProducts = () => {
       </h2>
       <div className="flex flex-wrap justify-center mt-10">
         {categoryProducts.map((product) => (
-          <Link to={`/product/${product.id}`} key={product.id}>
             <Product key={product.id} productInfo={product} />
-          </Link>
         ))}
       </div>
     </div>

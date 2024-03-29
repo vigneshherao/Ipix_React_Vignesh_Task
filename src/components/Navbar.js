@@ -27,15 +27,15 @@ const Navbar = () => {
             <BiSearch />
           </button>
         </div>
-        <div className="flex justify-center">
+        <div className="flex justify-center m-2">
           <Link to={"/users"}>
-            <div className="mr-12 flex items-center">
+            <div className="mr-1 sm:mr-12  flex items-center">
               <TbUserSquareRounded />
               <span className="ml-2 font-bold">Users</span>
             </div>
           </Link>
           <Link to={"/cart"}>
-          <div className="flex items-center cursor-pointer">
+          <div className="flex items-center cursor-pointer pl-2">
             <GrCart />
             <span className="ml-2 font-bold">{cartItems}-Items</span>
           </div>

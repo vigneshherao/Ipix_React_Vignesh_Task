@@ -10,6 +10,7 @@ const ProductDetail = () => {
   const { productId } = useParams();
   const dispatch = useDispatch();
   const {title,price,description} = productDetail;
+  const categoryName = productDetail?.category?.name;
 
   useEffect(() => {
     fetchProductDetail();
@@ -25,6 +26,7 @@ const ProductDetail = () => {
   };
 
 
+
   const handleAddItem = (productDetail)=>{
     dispatch(addItem(productDetail));
   }
@@ -34,7 +36,7 @@ const ProductDetail = () => {
   }
 
   return (
-    <div className="mt-10 flex px-10 sm:px-28 flex-col justify-between lg:flex-row gap-16 lg:items-center">
+    <div className="mt-10 sm:m-20 sm:mt-10 flex px-10 sm:px-28 flex-col justify-between lg:flex-row gap-16 lg:items-center">
       <div className="flex flex-col gap-6 lg:w-2/4">
         <img
           src={activeImg}
@@ -55,7 +57,7 @@ const ProductDetail = () => {
       </div>
       <div className="flex flex-col gap-4 lg:w-2/4">
         <div>
-          <span className="text-orange-600 font-semibold">Category</span>
+          <span className="text-orange-600 font-semibold">{categoryName}</span>
           <h1 className="text-3xl font-bold">{title}</h1>
         </div>
         <p className="text-gray-700 font-light">{description}</p>

@@ -16,7 +16,7 @@ const useCategories = ()=>{
     const fetchCategores = async ()=>{
         const data = await fetch(categoriesApi);
         const categories =await data.json();
-        setCategories(categories.slice(0, 5));
+        setCategories(categories);
     }
     return categories;
 

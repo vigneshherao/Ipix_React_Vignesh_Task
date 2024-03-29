@@ -5,7 +5,7 @@ const Category = ({ categoryInfo }) => {
   const { image, name } = categoryInfo;
 
   return (
-    <div className='w-full sm:w-[100px] md:w-[200px] h-auto border text-center p-8 m-5 cursor-pointer transition-transform duration-200 ease-in-out transform hover:scale-95'>
+    <div className='w-full sm:w-[100px] md:w-[200px] h-auto border text-center p-8 sm:m-5 cursor-pointer transition-transform duration-200 ease-in-out transform hover:scale-95'>
       <div>
         <img className='w-full h-auto rounded-full' src={image} alt={name} />
       </div>

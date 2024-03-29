@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Product from "./Product";
 import Shimmer from "./Shimmer";
-import { Link } from "react-router-dom";
 import useProducts from "../utils/useProducts";
 
 
@@ -21,7 +20,7 @@ const Products = () => {
 
         <div className="flex flex-wrap justify-center mt-10">
         {
-            products.map((product)=><Link to={`/product/${product.id}`} key={product.id}><Product key={product.id} productInfo={product}/></Link>)
+            products.map((product)=><Product key={product.id} productInfo={product}/>)
         }
         </div>
      </div>

@@ -2,8 +2,6 @@ import { useState,useEffect } from "react";
 
 const useProducts = () => {
     const [products, setProducts] = useState([]);
-
-    console.log(products);
   
     useEffect(() => {
       fetchProduct();
