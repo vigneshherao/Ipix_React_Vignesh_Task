@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+𝐈𝐩𝐢𝐱 𝐂𝐨𝐦 - 𝐄𝐜𝐨𝐦𝐦𝐞𝐫𝐜𝐞
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository contains the codebase for an E-commerce website developed using React.js.
 
-## Available Scripts
+Technologies Used
+React.js
+CustomHooks
+useState
+useEffect
+Tailwind CSS for styling
+React Router DOM
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+----Installation-----
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To get started with the project, follow these steps:
 
-### `npm test`
+1.Clone this Repo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://github.com/vigneshherao/Ipix_React_Vignesh_Task/assets/70132638/ee6cf3a3-c90c-44c1-8016-8478e9ce7657)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2.Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://github.com/vigneshherao/Ipix_React_Vignesh_Task/assets/70132638/3cd88ca7-d6a6-4b39-bf34-b71ec96a79c8)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+3.Install dependencies:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image](https://github.com/vigneshherao/Ipix_React_Vignesh_Task/assets/70132638/0beed235-94b9-454f-87f7-f045eb779b4d)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4.Once the dependencies are installed, you can start the development server by running:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://github.com/vigneshherao/Ipix_React_Vignesh_Task/assets/70132638/c6847c4e-9ead-40fb-a144-590c913fa154)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+----------------------Landing Page Products List-----------------------------------
+![image](https://github.com/vigneshherao/Ipix_React_Vignesh_Task/assets/70132638/82a849ac-5138-40a2-a23f-6ac7994efe28)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+----------------------Landing Page Products List-----------------------------------
+![image](https://github.com/vigneshherao/Ipix_React_Vignesh_Task/assets/70132638/8b56112f-c6e5-44a1-8e1c-be0d48b2280b)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+----------------------Category page-----------------------------------
 
-### Code Splitting
+![image](https://github.com/vigneshherao/Ipix_React_Vignesh_Task/assets/70132638/ea688151-6bf5-4bb4-a6c0-43475c291b73)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---------------------Product Detail Page-----------------------------------
+![image](https://github.com/vigneshherao/Ipix_React_Vignesh_Task/assets/70132638/aab73f40-d469-48a7-a0fe-54a8fc4e72d7)
 
-### Analyzing the Bundle Size
+---------------------Add to Cart Page------------------------
+![image](https://github.com/vigneshherao/Ipix_React_Vignesh_Task/assets/70132638/df98106f-75aa-4fc2-838a-ddfc0503d930)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
