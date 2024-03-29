@@ -35,5 +35,23 @@ To get started with the project, follow these steps:
 ![image](https://github.com/vigneshherao/Ipix_React_Vignesh_Task/assets/70132638/c6847c4e-9ead-40fb-a144-590c913fa154)
 
 
+----------------------Landing Page Products List-----------------------------------
+![image](https://github.com/vigneshherao/Ipix_React_Vignesh_Task/assets/70132638/82a849ac-5138-40a2-a23f-6ac7994efe28)
+
+----------------------Landing Page Products List-----------------------------------
+![image](https://github.com/vigneshherao/Ipix_React_Vignesh_Task/assets/70132638/8b56112f-c6e5-44a1-8e1c-be0d48b2280b)
+
+----------------------Category page-----------------------------------
+
+![image](https://github.com/vigneshherao/Ipix_React_Vignesh_Task/assets/70132638/ea688151-6bf5-4bb4-a6c0-43475c291b73)
+
+---------------------Product Detail Page-----------------------------------
+![image](https://github.com/vigneshherao/Ipix_React_Vignesh_Task/assets/70132638/aab73f40-d469-48a7-a0fe-54a8fc4e72d7)
+
+---------------------Add to Cart Page------------------------
+![image](https://github.com/vigneshherao/Ipix_React_Vignesh_Task/assets/70132638/df98106f-75aa-4fc2-838a-ddfc0503d930)
+
+
+
 
 
