@@ -5,9 +5,7 @@ import { Link, Outlet } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { TbUserSquareRounded } from "react-icons/tb";
 
-
 const Navbar = () => {
-
   const cartItems = useSelector((store) => store.cart.items.length);
 
   return (
@@ -29,16 +27,20 @@ const Navbar = () => {
             <BiSearch />
           </button>
         </div>
-       <div className="flex justify-center">
-       <div className="mr-12 flex items-center">
-       <TbUserSquareRounded />
-          <Link to={"/users"}><span className="ml-2 font-bold">Users</span></Link>
+        <div className="flex justify-center">
+          <Link to={"/users"}>
+            <div className="mr-12 flex items-center">
+              <TbUserSquareRounded />
+              <span className="ml-2 font-bold">Users</span>
+            </div>
+          </Link>
+          <Link to={"/cart"}>
+          <div className="flex items-center cursor-pointer">
+            <GrCart />
+            <span className="ml-2 font-bold">{cartItems}-Items</span>
+          </div>
+          </Link>
         </div>
-        <div className="flex items-center">
-          <GrCart />
-          <span className="ml-2 font-bold">{cartItems}-Items</span>
-        </div>
-       </div>
       </div>
       <Outlet />
     </div>

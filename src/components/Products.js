@@ -2,20 +2,12 @@ import React, { useEffect, useState } from "react";
 import Product from "./Product";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+import useProducts from "../utils/useProducts";
 
 
 const Products = () => {
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    fetchProduct();
-  }, []);
-
-  const fetchProduct = async () => {
-    const data = await fetch("https://api.escuelajs.co/api/v1/products");
-    const products = await data.json();
-    setProducts(products.slice(0,40));
-  };
+  
+  const products = useProducts();
 
 
   if(products.length==0){

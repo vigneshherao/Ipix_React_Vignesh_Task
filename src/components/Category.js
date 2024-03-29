@@ -1,6 +1,7 @@
 import React from 'react';
 
 const Category = ({ categoryInfo }) => {
+  
   const { image, name } = categoryInfo;
 
   return (

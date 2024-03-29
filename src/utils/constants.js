@@ -1,10 +1,2 @@
-export const navLinks = [
-    {
-        id:1,
-        name:"Home",
-    },
-    {
-        id:2,
-        name:"Home",
-    },
-]
+export const categoriesApi = "https://api.escuelajs.co/api/v1/categories";
+export const userApi = "https://api.escuelajs.co/api/v1/users";

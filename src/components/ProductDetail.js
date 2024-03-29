@@ -8,6 +8,8 @@ const ProductDetail = () => {
   const [productDetail, setProductDetail] = useState("");
   const [activeImg, setActiveImage] = useState("");
   const { productId } = useParams();
+  const dispatch = useDispatch();
+  const {title,price,description} = productDetail;
 
   useEffect(() => {
     fetchProductDetail();
@@ -22,7 +24,6 @@ const ProductDetail = () => {
     setActiveImage(productInfo.images[0]);
   };
 
-  const dispatch = useDispatch();
 
   const handleAddItem = (productDetail)=>{
     dispatch(addItem(productDetail));
@@ -55,10 +56,10 @@ const ProductDetail = () => {
       <div className="flex flex-col gap-4 lg:w-2/4">
         <div>
           <span className="text-orange-600 font-semibold">Category</span>
-          <h1 className="text-3xl font-bold">{productDetail.title}</h1>
+          <h1 className="text-3xl font-bold">{title}</h1>
         </div>
-        <p className="text-gray-700 font-light">{productDetail.description}</p>
-        <h6 className="text-2xl font-semibold">Rs {productDetail.price}</h6>
+        <p className="text-gray-700 font-light">{description}</p>
+        <h6 className="text-2xl font-semibold">Rs {price}</h6>
         <div className="flex flex-row items-center gap-12">
           <button
             className="bg-black text-white font-semibold py-3 px-16  h-full"
